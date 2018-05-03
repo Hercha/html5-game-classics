@@ -206,6 +206,9 @@ function drawAll() {
     // draw paddle
     colorRect(paddleX, canvas.height-PADDLE_DIST_FROM_EDGE, PADDLE_WIDTH,PADDLE_THICKNESS, 'white');
     
+    //show mouse cords
+    //colorText(mouseX+","+mouseY, mouseX,mouseY, 'yellow');
+    
     drawBricks();
 }
 
