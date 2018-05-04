@@ -210,9 +210,9 @@ function drawAll() {
     //colorText(mouseX+","+mouseY, mouseX,mouseY, 'yellow');
     
     //show brickstuff
-//    var mouseBrickX = mouseX / BRICK_W;
-//    var mouseBrickY = mouseY / BRICK_H;
-//    colorText(mouseBrickX+","+mouseBrickY, mouseX,mouseY, 'yellow');
+//    var mouseBrickCol = Math.floor(mouseX / BRICK_W);
+//    var mouseBrickRow = Math.floor(mouseY / BRICK_H);
+//    colorText(mouseBrickCol+","+mouseBrickRow, mouseX,mouseY, 'yellow');
     
     drawBricks();
 }
