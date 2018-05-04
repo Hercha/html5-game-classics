@@ -209,6 +209,11 @@ function drawAll() {
     //show mouse cords
     //colorText(mouseX+","+mouseY, mouseX,mouseY, 'yellow');
     
+    //show brickstuff
+//    var mouseBrickX = mouseX / BRICK_W;
+//    var mouseBrickY = mouseY / BRICK_H;
+//    colorText(mouseBrickX+","+mouseBrickY, mouseX,mouseY, 'yellow');
+    
     drawBricks();
 }
 
