@@ -89,7 +89,7 @@ function carTrackHandling(whichCar) {
             nextLevel();
         } else if (tileHere != TRACK_ROAD){
             whichCar.x -= Math.cos(whichCar.ang) * whichCar.speed;
-            whichCar.y -= Math.cos(whichCar.ang) * whichCar.speed;
+            whichCar.y -= Math.sin(whichCar.ang) * whichCar.speed;
             whichCar.speed *= -0.5;
         }     
     } // end of valid col and row
