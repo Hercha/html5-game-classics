@@ -19,7 +19,15 @@ function imageLoadingDoneSoStartGame() {
     
     setupInput();
     
-    loadLevel(levelOne);
+    loadLevel(levelList[levelNow]);
+}
+
+function nextLevel() {
+    levelNow++;
+    if(levelNow >= levelList.length) {
+        levelNow = 0;
+    }
+    loadLevel(levelList[levelNow]);
 }
 
 function loadLevel(whichLevel) {
